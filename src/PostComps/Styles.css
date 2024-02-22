@@ -1,0 +1,44 @@
+.loadPage{
+    background: linear-gradient(to top right, #5E5E5E, #fafafa);
+}
+
+
+@font-face {
+    font-family: 'Inika Bold';
+    src: url("../Font/Inika-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Inika Regular';
+    src: url("../Font/Inika-Regular.ttf");
+}
+
+
+.fontShadow{
+    filter: drop-shadow(-2px 4px 1px #767B72);
+    font-family: Inika Bold;
+}
+.font-shadow{
+    filter: drop-shadow(0 1px 1px #767B72);
+    font-family: Inika Bold;
+}
+
+.font-Inika{
+    font-family: Inika Bold;
+}
+
+.font-RegularInika{
+    font-family: Inika Regular;
+}
+
+.goToPostsShadow{
+    filter: drop-shadow(-2px 4px 10px #dadada);
+}
+
+.headerShadow{
+    box-shadow: 0px 1px 65px 0px #7E7E7E;
+}
+
+.postContainer{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
